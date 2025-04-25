@@ -26,7 +26,7 @@ public class Maze : MonoBehaviour
             }
     }
 
-    void Generate()
+    public virtual void Generate()
     {
         for (int z = 0; z < depth; z++)
             for (int x = 0; x < width; x++)
